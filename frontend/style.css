@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38vh;
+    border-bottom: 1px solid white;
+}
+
+#items{
+    display: flex;
+}
+
+.p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.input{
+    width: 70px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff30;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+#auth{
+    width: 80px;
+}
+
+.input-txt{
+    height: 20px;
+    background-color: #ffffff30;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: white;
+    padding: 4px;
+    margin-right: 5px;
+}
+
+/**************************************/
+
+#container-cadastrar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+#items-cadastrar{
+    margin-top: 30px;
+}
+
+.p-cadastro{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+.input-cadastro{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    width: 250px;
+    background-color: #ffffff30;
+    color: white;
+}
+
+#submit{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ffffff30;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#container-msg{
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#p-msg{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}

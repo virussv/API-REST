@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+        <form method="post" id="form">
+            <div id="items">
+                <p class="p">Login</p>
+                <input type="text" class="input-txt" name="nome" value="vobeto">
+                <input type="text" class="input-txt" name="senha" value="1234">
+                <input type="submit" class="input" value="Gerar token" style="width: 100px;">
+        </form>
+
+            <input type="button" class="input" value="Autenticar" id="auth">
+        </div>
+    </div>
+    
+
+    <div id="container-cadastrar">
+        <form method="post" id="form2">
+            <div id="items-cadastrar">
+                <div id="container-msg">
+                    <div id="item">
+                        <p id="p-msg"></p>
+                    </div>
+                </div>
+                <p class="p-cadastro">Nome</p>
+                <input type="text" class="input-cadastro" name="nome">
+                <p class="p-cadastro">Email</p>
+                <input type="text" class="input-cadastro" name="email">
+                <p class="p-cadastro">Senha</p>
+                <input type="text" class="input-cadastro" name="senha">
+                <input type="submit" id="submit">
+            </div>
+        </form>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

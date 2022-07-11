@@ -1,0 +1,13 @@
+{
+    "name": "micro/backend",
+    "autoload": {
+        "psr-4": {
+            "db\\": "db/"
+        }
+    },
+    
+    "require": {
+        "firebase/php-jwt": "^6.2",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
